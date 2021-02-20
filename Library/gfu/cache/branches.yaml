@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-19T18:04:35.813-07:00
-  initializedAtString: 2021-02-19T18:04:35.795-07:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-02-19T18:52:41.976-07:00
+  initializedAtString: 2021-02-19T18:47:46.830-07:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/DirkDieters/BattleBots-Tycoon.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/DirkDieters/BattleBots-Tycoon.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/DirkDieters/BattleBots-Tycoon.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

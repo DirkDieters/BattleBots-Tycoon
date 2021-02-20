@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-02-19T18:04:35.780-07:00
-  initializedAtString: 2021-02-19T18:03:24.521-07:00
+  lastUpdatedAtString: 2021-02-19T19:03:12.228-07:00
+  initializedAtString: 2021-02-19T19:02:26.166-07:00
   currentGitRemote:
     name: origin
     url: https://github.com/DirkDieters/BattleBots-Tycoon.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: main
-    tracking: 
+    tracking: origin/main
   currentConfigBranch:
     name: main
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/DirkDieters/BattleBots-Tycoon.git
+    trackingBranch: main
   currentConfigRemote:
     name: origin
     url: https://github.com/DirkDieters/BattleBots-Tycoon.git
